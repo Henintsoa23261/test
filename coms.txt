@@ -1,0 +1,8 @@
+php -S 127.0.0.1:8002 -t public
+npm run build
+npm add @popperjs/core
+npm install bootstrap@5
+npm install postcss-loader autoprefixer --dev
+npm install sass --save-dev
+composer require symfony/webpack-encore-bundle
+php bin/console make:controller Name
